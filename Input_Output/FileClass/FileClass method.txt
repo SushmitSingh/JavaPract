@@ -1,0 +1,18 @@
+File f1=new File("C:\\Temp\\a.txt");
+File f1=new File("D:");
+File f1=new File("C:\\Temp");
+File f1=new File("C\\Temp",a.txt);
+File f1=new File(f1,"a.txt");
+boolean b=f1.exists();
+boolean b=f1.isFile();
+boolean b=f1.isDirectory();
+String s=f1.getPath();
+String s=f1.getParent();
+String s=f1.getName();
+int size=f.size();
+boolean b=f.isIterator();
+boolean b=f.delete();
+String s[]=f.list();
+f1="abc.txt";
+f2="xyz.txt";
+f1.rename(f2);

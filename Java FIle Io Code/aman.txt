@@ -1,0 +1,20 @@
+import java.io.*;
+class Copyio{
+     public static void main(String ar[])  throws FileNotFoundException,IOException
+ {
+     //source file must be 
+     FileInputStream Fis=new FileInputStream("demo.txt");
+     FileOutputStream Fos=new FileOutputStream("Fist.txt");
+      FileOutputStream Fos1=new FileOutputStream("Fist1.txt");
+       FileOutputStream Fos2=new FileOutputStream("Fist2.txt");
+     int data;
+     while((data=Fis.read()) != -1)
+     {
+         Fos.write(data);
+          Fos1.write(data);
+           Fos2.write(data);
+     }
+     Fis.close();
+     Fos.close();
+ }
+}
