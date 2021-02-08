@@ -5,6 +5,7 @@ class InstanceMethod{
              d.display(10,"gabbar"); //This Is Instance Method ecause Its Need A Reff To Execute
 }
 }
+
 class Dog
 {
     String name;
